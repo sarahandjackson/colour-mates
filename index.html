@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <script src="index.js"></script>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun&family=Spartan&display=swap" rel="stylesheet">
+
+  <title>Sarah Jackson | Colour Mates</title>
+</head>
+
+<body>
+  <h1>COLOUR MATES</h1>
+  <div class="intro">
+    <p>
+      Find colour mates for...
+    </p>
+    <input type="text" name="search" placeholder="e.g. #FF3300" class="hex-input">
+    <p class="error-message">
+      Sorry, nope! Not a valid HEX code. Try again?
+    </p>
+    <div class="user-color-box"></div>
+  </div>
+
+  <table class="color-table">
+    <thead>
+      <tr>
+        <th></th>
+        <th>Name</th>
+        <th>Hex</th>
+        <th>RGB</th>
+        <th>CMYK</th>
+        <th>Mateship score</th>
+      </tr>
+    </thead>
+    <tbody class="color-data">
+    </tbody>
+  </table>
+
+</body>
+
+</html>
